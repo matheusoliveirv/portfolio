@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import styled from "styled-components";
 import { ThemeContext } from "styled-components";
-import LightIcon from "../../assets/ThemeMode/LightMode.svg";
-import DarkIcon from "../../assets/ThemeMode/DarkMode.svg";
+import LightIcon from "../../assets/themeMode/LightMode.svg";
+import DarkIcon from "../../assets/themeMode/DarkMode.svg";
 
  interface Props{
     toggleTheme(): void,
